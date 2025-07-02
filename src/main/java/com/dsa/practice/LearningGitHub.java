@@ -30,7 +30,7 @@ public class LearningGitHub {
 		// origin --	Destination (Where to push → Remote repo URL)
 		// main -- Source (What to push → Local branch name)
 		
-		
+		// We can push a local branch into a differently named remote branch by using git push origin localBranch:remoteBranch.
 	}
 
 }
