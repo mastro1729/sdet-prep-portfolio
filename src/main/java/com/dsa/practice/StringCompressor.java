@@ -7,6 +7,7 @@ public class StringCompressor {
 		
 		int counter = 1;
 		StringBuilder sb = new StringBuilder();
+		
 		for(int i=1; i<str.length(); i++) {
 			char current = str.charAt(i);
 			char previous = str.charAt(i-1);
