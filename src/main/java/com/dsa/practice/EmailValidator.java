@@ -17,6 +17,10 @@ public class EmailValidator {
 		}
 		
 		// 2. There must be a dot after the '@'
+		// The method indexOf returns the position (index) of the first occurrence of the dot, 
+		// starting from the given index, atIndex, which is the position of the @ symbol in the email address.
+		// If no dot is found after the @ symbol (i.e., dotIndex == -1), the function returns false, indicating that 
+		// the email is invalid because there must be a dot after the @ in a properly formatted email address.
 		int dotIndex = email.indexOf('.', atIndex);
 		if(dotIndex == -1) {
 			return false;

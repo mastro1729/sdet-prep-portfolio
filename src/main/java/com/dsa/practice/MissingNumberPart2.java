@@ -1,14 +1,15 @@
 package com.dsa.practice;
 
 public class MissingNumberPart2 {
-	// You are given an array nums of n distinct integers in the range [1, n].
-	// Exactly one number is missing from the range.
-	// Return the missing number.
+	/* You are given an array nums of n distinct integers in the range [1, n].
+	 Exactly one number is missing from the range.
+	 Return the missing number. */
 	
-   // Case 2: Range is 1 to n
-   // Total numbers = n
-  // If 1 number is missing, you'll be given n - 1 elements.
-  // But the formula n * (n + 1) / 2 requires the full n, so:
+	/* Case 2: Range is 1 to n
+	Total numbers in the full range = n
+	If 1 number is missing, the array has n - 1 elements.
+	But the formula n * (n + 1) / 2 requires the full n, so:
+	Therefore, we must use n = arr.length + 1 */
 		
 	public static int missingNumber(int[] array) {
 		int n = array.length+1;

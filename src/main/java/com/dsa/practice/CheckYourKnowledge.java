@@ -1,28 +1,26 @@
 package com.dsa.practice;
 
+import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.List;
 
-public class CheckYourKnowledge {
+import com.opencsv.CSVParser;
+import com.opencsv.CSVParserBuilder;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVReaderBuilder;
 
-	public static String stringReverse(String str) {
-		String[] words = str.trim().split("\\s+");
+public class CheckYourKnowledge { 
+	public static int missingNumber(int[] array) {
 		
-		StringBuilder sb = new StringBuilder();
+		int 
 		
-		for(int i=words.length-1; i>=0; i--) {
-			sb.append(words[i]);
-			if(i != 0) {
-				sb.append(" ");
-			}
-		}
-		return sb.toString();
+	return result;
 	}
 
 	public static void main(String[] args) {
-		String input = "I Love Java and Selenium WebDriver";
-		String result = stringReverse(input);
-		System.out.println("The reversed String is: " + result);
+		String input = "Hello";
+		String result = reverse(input);
+		System.out.println(result);
 	}
 }
