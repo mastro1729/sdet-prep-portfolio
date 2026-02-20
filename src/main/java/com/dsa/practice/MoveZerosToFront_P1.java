@@ -2,7 +2,7 @@ package com.dsa.practice;
 
 import java.util.Arrays;
 
-public class MoveZerosToFront {
+public class MoveZerosToFront_P1 {
 	
 	public static int[] moveZerosToFront(int[] array) { 
 		int counter = array.length-1; 

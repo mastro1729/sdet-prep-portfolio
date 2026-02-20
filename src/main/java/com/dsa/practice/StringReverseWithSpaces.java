@@ -15,7 +15,7 @@ public class StringReverseWithSpaces {
 		}
 		
 		int j = inputArray.length-1;
-		for(int i=0; i<inputArray.length; i++) {
+		for(int i=0; i<inputArray.length; i++) {	
 			if(inputArray[i] != ' ') {
 				while(j >= 0 && resultArray[j] == ' ') {
 					j--;
